@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="27006ada-039b-43cb-82cc-5ea8d44c886f">
+  <name>EDT</name>
+  <synonym>
+    <key>ru</key>
+    <value>EDT</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="b7305d7d-1727-447c-9cfc-d2660ad0d010"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="63ccf2c8-4ce3-40c2-ba26-67c43ce2ea79"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="51958209-5ff3-4b6c-af4b-cd1d0c444623"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="3ab04e4b-1608-44a3-8f04-1d4f76d9d54a"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="24a6317a-545a-4358-98e3-d0e21458d999"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="a5cec0cb-91cb-4a58-886b-07df75a357be"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="1ed8171f-e13d-436d-804a-bd21bb3d4b84"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.24</compatibilityMode>
+  <languages uuid="b5cd395c-cec1-4c46-9e74-65a29ff76b63">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <catalogs>Catalog.Контрагенты</catalogs>
+</mdclass:Configuration>
