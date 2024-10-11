@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62c5636d-125b-48f0-9f4e-c1b83c292ba1">
+  <producedTypes>
+    <objectType typeId="d9f980dd-4d58-42f9-8244-4574fa1c0600" valueTypeId="632e3760-9101-442f-abf0-59db1bfb3c53"/>
+    <managerType typeId="403c6280-3eae-421b-a3ed-b97eba9e7d0c" valueTypeId="20295b10-cb92-4ca5-93b4-b24759140054"/>
+  </producedTypes>
+  <name>ИзИнофоСтарт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Из инофо старт</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ИзИнофоСтарт.Form.Форма</defaultForm>
+  <forms uuid="2f9ef596-0cce-463a-87c0-cb08087a52fd">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="7b868ad3-2afb-42ed-9091-028769201cb7">
+    <name>МакетТаблицыТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет таблицы товаров</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

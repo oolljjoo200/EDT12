@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca9b0237-b0ec-4994-a3bf-5a9850fab482">
+  <producedTypes>
+    <objectType typeId="b1f1c93c-88dd-4ce0-b3e1-1b78aaf3b4f7" valueTypeId="6f1e19a4-71c5-4954-a4de-e4a014a041ec"/>
+    <managerType typeId="96c3d68d-40e1-46cd-9c1d-f09fd267c6c6" valueTypeId="7db574be-e33d-469f-923b-0491ef0afb69"/>
+  </producedTypes>
+  <name>АсинхроннаяФункция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Асинхронная функция</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.АсинхроннаяФункция.Form.Форма</defaultForm>
+  <forms uuid="fe95de76-d680-405c-9ff5-adb2829032ab">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

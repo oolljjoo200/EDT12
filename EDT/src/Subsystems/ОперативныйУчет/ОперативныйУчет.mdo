@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cfad02ba-4ba0-47cf-9d3d-e2b6e0919abc">
+  <name>ОперативныйУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оперативный учет</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ОперативныйУчет</picture>
+  </picture>
+  <content>Catalog.Валюты</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.Подразделения</content>
+  <content>Document.ПриходнаяНакладная</content>
+  <content>Document.РасходнаяНакладная</content>
+  <content>Enum.УчетнаяПолитика</content>
+  <content>Enum.ВидыНоменклатуры</content>
+  <content>DataProcessor.КонсольЗапросов</content>
+  <content>ChartOfCharacteristicTypes.СвойстваОбъектов</content>
+  <content>InformationRegister.КурсыВалют</content>
+  <content>AccumulationRegister.ОстаткиНоменклатуры</content>
+  <content>Catalog.Склады</content>
+  <content>InformationRegister.УчетнаяПолитика</content>
+  <content>Document.НазначениеУчетнойПолитики</content>
+  <content>Report.ОстаткиТоваров</content>
+  <content>AccumulationRegister.Продажи</content>
+  <content>DataProcessor.Чтение</content>
+  <content>DataProcessor.ИзИнофоСтарт</content>
+  <content>DataProcessor.ЧтениеИзИИ</content>
+  <content>DataProcessor.ЧтениеИзИИИ</content>
+  <content>DataProcessor.ИзИнофоСтарт2</content>
+  <content>DataProcessor.АсинхроннаяФункция</content>
+</mdclass:Subsystem>

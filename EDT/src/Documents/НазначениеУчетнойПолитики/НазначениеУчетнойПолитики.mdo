@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eca5f133-7ca2-4e86-852e-ec4f5a395007">
+  <producedTypes>
+    <objectType typeId="e65edd7e-6bc0-4aac-96d8-c00feb53197c" valueTypeId="2d2a5d24-61af-4f8f-958e-9579d71e4dd1"/>
+    <refType typeId="95ed2b9e-9b77-40a3-8b00-84db54975039" valueTypeId="2102d99d-81cd-48b6-8f41-cbc26a199989"/>
+    <selectionType typeId="796d157d-9885-4b7a-936b-1d9d71eff720" valueTypeId="27059528-20f6-43ac-b4af-11479ec297ed"/>
+    <listType typeId="5affe81f-bad8-4ed3-8b14-0fc81c465f19" valueTypeId="605e2146-53c5-4d25-abdb-fe8a0193322b"/>
+    <managerType typeId="97526a91-1ad1-4b37-ae53-99f71778ca2a" valueTypeId="82698bad-040f-47f5-958b-4d6233c31309"/>
+  </producedTypes>
+  <name>НазначениеУчетнойПолитики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Назначение учетной политики</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.НазначениеУчетнойПолитики.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecords>InformationRegister.УчетнаяПолитика</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="3e6fda75-8905-4115-892f-4cab66d03bf5">
+    <name>МетодСписанияСебестоимости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метод списания себестоимости</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УчетнаяПолитика</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

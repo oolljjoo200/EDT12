@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6344b045-18e7-4bbf-a96a-02c2d8286578">
+  <producedTypes>
+    <selectionType typeId="8eef2417-4872-45b7-af7d-aa92e2ac338c" valueTypeId="d8c7d9fc-2c82-47f5-8b35-6b633f73090b"/>
+    <listType typeId="1cb3b0be-4802-4b0a-98e6-892c7801f28f" valueTypeId="c51cc875-959c-4aa7-87a5-55f110008ac8"/>
+    <managerType typeId="0ae56d45-7c0e-4758-88fa-9a600b0f6836" valueTypeId="f6845b1f-6e43-4fdc-883c-e31910eefc3a"/>
+    <recordSetType typeId="578b4035-d344-4303-962d-7f8d94134434" valueTypeId="025353f6-0999-47ae-82ca-372705d455e4"/>
+    <recordKeyType typeId="768d44a9-5b62-4456-a033-596fc437fd54" valueTypeId="db69884b-fa5c-4a1e-80c0-567da8b88315"/>
+    <recordType typeId="bdf7325f-7ffe-4f95-9454-b322571905c9" valueTypeId="6e1b508c-a31b-4126-b62c-b3625859c625"/>
+    <recordManagerType typeId="52d92ebb-fe16-42d2-9056-b0a355a77c1e" valueTypeId="d413c1d2-96fe-47fd-968e-c57142073a12"/>
+  </producedTypes>
+  <name>УчетнаяПолитика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учетная политика</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Year</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="7f75cb90-5b52-4c21-a911-40c1d2a1a6f3">
+    <name>МетодСписанияСебестоимости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метод списания себестоимости</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УчетнаяПолитика</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+</mdclass:InformationRegister>
