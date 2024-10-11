@@ -39,5 +39,6 @@
     <languageCode>ru</languageCode>
   </languages>
   <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
   <documents>Document.ЗаказыИПокупки</documents>
 </mdclass:Configuration>
